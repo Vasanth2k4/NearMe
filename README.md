@@ -28,189 +28,144 @@ Execute the programs and publish them.
 ## map.html
 ```
 <html>
-    <head>
-        <title>
-            CUDDALORE
-        </title>
-    </head>
     <body>
-        <h1 align="center">CUDDALORE(OVIYA N)</h1>
-        <center>
-            <img src="imagemap.png" usemap="#mapnew">
-            <map name="mapnew">
-                <area target="" alt="Silver_Beach" title="Silver_Beach" href="Silver_Beach.html" coords="616,99,775,142" shape="rect">
-                <area target="" alt="Panruti" title="Panruti" href="Panruti.html" coords="263,71,61" shape="circle">
-                <area target="" alt="Neyveli" title="Neyveli" href="Neyveli.html" coords="63,481,107,457,179,485,167,521,60,524" shape="poly">
-                <area target="" alt="Cuddalore_Port" title="Cuddalore_Port" href="Cuddalore_Port.html" coords="589,179,41" shape="circle">
-                <area target="" alt="Vadalur" title="Vadalur" href="Vadalur.html" coords="256,405,326,436,289,488,204,473,183,422" shape="poly">
-            </map>
-        </center>
-    </body>
-</html>
-```
-## Silver_Beach.html
-```
-<html>
-    <head>
-        <title>
-            Silver_Beach
-        </title>
-        <style>
-            p{
-                font-size: xx-large;
-                color: black;
-                
-            }
-            body{
-                background-color:bisque;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 align="center">SILVER_BEACH</h1>
-        <p>
-            The 57 km long beach is <strong>one among the longest in Asia and the second-longest in the Coromandel Coast</strong>. The historical importance of Silver Beach is reflected through Fort St. David, one of the three significant forts constructed by the British Empire, which is located there. While the Pallavas and Medieval Cholas were in power, <strong>Cuddalore was an important town.</strong>
-
-The waves on the beach are mild, making it ideal for swimming. The crabs on the shore are to be avoided, though. The sunrise on the beach is a must-have experience for every beach lover. You can see a few beach resorts close to the shore.  Although primarily a fishing port, the town today has had a number of chemical and pharmaceutical industries since SIPCOT was established.
-
-        </p>
-        <center>
-            <img src="https://i.ytimg.com/vi/epKW6NxHCOw/maxresdefault.jpg" width="600" height="300">
-        </center>
-    </body>
-</html>
-```
-## Cuddalore_Port.html
-```
-<html>
-    <head>
-        <title>
-            Cuddalore_Port
-        </title>
-        <style>
-            h1{
-                font-size: xx-large;
-                color: #de1212;
-            }
-            p{
-                font-size: medium;
-            }
-            
-        </style>
-    </head>
-    <body>
-        <h1 align="center">CUDDALORE_PORT</h1>
-        <p>
-            <strong>Cuddalore Port </strong>is an open (anchorage) port located on the <strong>eastern coast of Tamil Nadu</strong>, at the confluence of the <strong> Uppanar (or Paravanar) rivers in the Bay of Bengal</strong>. Ships anchor offshore, and cargo is transferred through small boats or barges between the ships and the shore. The anchorage takes place 0.5 nautical miles offshore in depths of 8-10 meters. This port handles small vessels (or inland vessels), and under the Sagarmala/Inland Waterways project of the Union Ministry of Shipping, it is being developed into a full-fledged port with the extension of breakwaters, construction of cargo berths, and dredging of the channel. This development is supported by a grant from the Union Ministry of Shipping.
-        </p>
-        <center>
-            <img src="https://tnmaritime.tn.gov.in/media/banners/slider4.jpg" 
-        </center>
-    </body>
-</html>
-```
-## Panruti.html
-```
-<html>
-    <head>
-        <title>
-            Panruti
-        </title>
-        <style>
-            h1{
-                font-size: xx-large;
-                color: green;
-            }
-            p{
-                font-size:large;
-            }
-            body{
-                background-color: ivory;
-            }
-           
-        </style>
-      
-    </head>
-    <body>
-        <h1 align="center">PANRUTI</h1>
-        <p>
-            Panruti is <strong>famous</strong> for  <strong>jackfruits and cashew nuts</strong>. The <strong>jackfruit grown here is exported worldwide and is very sweet</strong>. It is a business capital of Cuddalore district. Kananchavadi one of the villages in panruti taluk, famous for palm juice. It has been a great commercial area for more than 200 years. The name Panruti came from the Tamil words "Pann" and "Urutti" meaning "composing song and music", as the place is where many saints and great religious singers such as nayanmars and vainavas sung. A 150-year-old government school was built here by the British East India Company and a <strong>more-than-1000-year-old temple Veerattaneswarar temple is nearby in Thiruvathigai</strong>.
-        </p>
-        <img align="left"  src="https://www.nurserytoday.co.in/wp-content/uploads/2022/07/JF-Feature.jpg" width="700" height="500">
-        <img align="right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3zJ9TECEBDxWpLaLumJQ_gi-UiDIKhtE_Mw&s" width="700" height="500">
-    </body>
-</html>
-```
-## Neyveli.html
-```
-<html>
-    <head>
-        <title>
-            Neyveli
-        </title>
-        <style>
-            h1{
-                font-size: xx-large;
-            }
-            p{
-                font-size: large;
-                color: black;
-            }
-            body{
-                background-color: palegoldenrod;
-            }
+        <head>
+            <title>image map</title>
+            <img src="map.png" alt="Sample image" usemap="#image-map">
+        <map name="image-map"
+    <center>
         
-        </style>
-    </head>
-    <body>
-        <h1 align="center">NEYVELI</h1>
-        <p>
-            <span style="font-size: 200%;">Neyveli – A Man-made Township  </span> <strong>    One of the best-planned townships in India</strong>, Neyveli is a small, compact city in the Cuddalore region of Tamil Nadu. Around 1935, it was discovered that copious amounts of the mineral lignite was available just a few feet below the surface of this region.In 1935, the presence of black particles was discovered by <strong>Jambulinga Mudaliar</strong>. The analysis led to the discovery of <strong>lignite</strong> reserves beneath the areas in and around Neyveli village. The Neyveli Lignite Corporation was formed as a corporate Body in 1956 by the <strong>Government of India</strong>. The mining of lignite started in 1962. The <strong>first thermal power station </strong>was commissioned in 1962 with assistance from the <strong>U.S.S.R. </strong>. NLC India Limited has been adjudged as the fastest growing Public Sector Enterprise (Navratna category) by the Hindustan Times group based on a Study/survey by Price Waterhouse Cooper under the Navratna category
-
-
-
-        </p>
-        
-        <img align="left" src="https://iticampus.co.in/wp-content/uploads/2024/03/IMG_20240320_081719.webp" width="800" height="500">
-        <img align="right" src="https://png.pngtree.com/background/20240420/original/pngtree-coal-mine-method-mining-engineering-coal-mine-photo-picture-image_8581357.jpg" width="600" height="500">
-        
-    </body>
-</html>
-```
-## Vadalur.html
-```
-<html>
-    <head>
-        <title>
-            Vadalur
-        </title>
-        <style>
-            h1{
-                font-size: xx-large;
-                color: chocolate;
-            }
-            p{
-                font-size: large;
-            }
-            body{
-                background-color: cornsilk;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 align="center">VADALUR</h1>
-        <p>
-            <strong>Sri Arutprakasa Ramalinga Vallalar </strong>emerged from Tamil Nadu to educate people on religion, and to be inclusive of other faiths. He taught people to have tolerance, stay united, and taught communities to live in harmony. He inclusively defined spirituality and worked towards one world and united souls.<strong>Sathya Gnana Sabai (lit=Hall of True Knowledge resp. Hall of Wisdom:translit=Cattiya ñāṉa capai)</strong> is a temple constructed on 25 January 1872 by <strong>the saint Sri Raamalinga Swaamigal</strong> also known as<strong> Vallalaar </strong>in the town of<strong> Vadalur</strong> in Cuddalore district,Tamil Nadu, India. It is an octagonal structure; the sanctum sanctorum of this temple is concealed from the main hall by seven curtains which are parted only on the Thai Poosam day.All the four towers of the Chidambaram Nataraajar temple are visible from the sabha.
-
-
-
-
-        </p>
-        <center>
-        <img src="https://thumbs.dreamstime.com/b/vadalur-vallalar-temple-architecture-vadalur-india-pink-buildings-vadalur-vallalar-temple-timings-architecture-history-vadalur-210850163.jpg" width="700" height="500">
+        <area shape="rect"  alt=" google map" coords="1273,247,884,36" href="proj1.html" >
+        <area shape="poly" alt="google map" coords="514,558,797,518,922,675,578,675,470,675" href="proj2.html">
+        <area shape="circle" alt="google map" coords="149,151,159" href="proj3.html">
+        <area shape="poly" alt="google map" coords="1006,590,1297,675,1295,417,1211,341,1028,401" href="proj4.html">
+        <area shape=" rect" alt="google map" coords="388,456,821,206" href="proj5.html">
     </center>
+</html>
+        </head>
     </body>
 </html>
+
+
+<html>
+    <title>
+        map1
+    </title>
+    <center>
+        <h2>  Beauty of Arni  </h2>
+    </center></title>    
+    <center>
+        <h1>Annamalaiyar Kovil</h1>    
+    </center>
+   
+    <center>
+        <img src="Annamalaiyar kovil.jpg"  width="65% " height="50%">
+
+    </center>
+    <center>
+
+    
+    <h2>
+        The Brihadisvara Temple is a Hindu temple dedicated to Shiva in Gangaikonda Cholapuram, Jayankondam, in the South Indian state of Tamil Nadu. Completed in 1035 CE by Rajendra Chola I as a part of his new capital, this Chola dynasty era temple is similar in design, and has a similar name, as the older 11th century, Brihadeeswarar Temple about 70 kilometres (43 mi) to the southwest in Thanjavur.[2] The Gangaikonda Cholapuram Temple is smaller yet more refined than the Thanjavur Temple. Both are among the largest Shiva temples in South India and examples of Dravidian style temples. The temple is also referred to in texts as Gangaikonda Cholapuram Temple or Gangaikondacholeeswaram Temple
+    </h2>
+    </center>
+    
+    <head>
+
+    </head>
+</html>
+
+<html>
+    <title>
+        map2
+    </title>
+    <center>
+        <h2>  Beauty of arni </h2>
+    </center>
+    
+    <center>
+        <h1>dom</h1>    
+    </center>
+   
+    <center>
+        <img src="sathanur dom.jpg"  width="30% " height="20%">
+
+    </center>
+    <center>
+
+    
+    <h2>
+        Sathanur Dam is a major and scenic dam near Tiruvannamalai, built across the Thenpennai River, with multiple uses (irrigation, water supply, recreation). It's a good side-trip if you’re in the region and offers both functional importance and leisure value.
+    </h2>
+    </center>
+    
+    <head>
+
+    </head>
+</html>
+
+
+<html>
+    <title>
+        map3
+    </title>
+    <center>
+        <h2>  Beauty of arni  </h2>
+
+    </center>
+   
+    <center>
+        <h1>parvathamalai</h1>    
+    </center>
+   
+    <center>
+        <img src="parvathamalai.jpg" width="65% " height="50%">
+
+    </center>
+    <center>
+
+    
+    <h2>
+        Parvathamalai is a sacred and picturesque hill located in the Tiruvannamalai district of Tamil Nadu, near the village of Thenmathimangalam in Kalasapakkam taluk. Rising to about 4,500 feet above sea level, it is part of the Eastern Ghats range and has long been revered as a powerful place of spiritual energy. At the summit of the hill stands an ancient temple dedicated to Lord Mallikarjuna Swamy, a form of Lord Shiva, along with a shrine for the Goddess Parvathi.
+    </h2>
+    </center>
+    
+    <head>
+
+    </head>
+</html>
+
+
+<html>
+    <title>
+        map3
+    </title>
+    <center>
+        <h2>  Beauty of arni  </h2>
+    </center>
+    
+    <center>
+        <h1>Railway Station</h1>    
+    </center>
+   
+    <center>
+        <img src="railway station.jpeg"  width="25% " height="35%">
+
+    </center>
+    <center>
+
+    
+    <h2>
+        The railway station in Arni is an important transportation hub, connecting the town to various parts of Tamil Nadu. It serves as a vital link for commuters and travelers, facilitating the movement of people and goods. The station is equipped with basic amenities and plays a crucial role in the local economy by providing access to larger cities and markets.
+    </h2>
+    </center>
+    
+    <head>
+
+    </head>
+</html>
+
+
 ```
 
 
