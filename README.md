@@ -1,6 +1,5 @@
 # Ex04 Places Around Me
-## Date: 21/10/2024
-
+## Date: 05/11/2025
 ## AIM
 To develop a website to display details about the places around my house.
 
@@ -170,17 +169,10 @@ Execute the programs and publish them.
 
 
 ## OUTPUT
-## map.html
-![image](https://github.com/user-attachments/assets/5c075ed7-d49d-4588-9195-074526bf2f1d)
-## Silver_Beach.html
-![image](https://github.com/user-attachments/assets/4610a27d-0695-4bcc-ac9e-9d8732298a3d)
-## Cuddalore_Port.html
-![image](https://github.com/user-attachments/assets/2d146bcb-873e-40db-8a52-9993ba366436)
-## Panruti.html
-![image](https://github.com/user-attachments/assets/22a9787d-c4d8-48b8-8009-79a2c09d9c51)
-## Neyveli.html
-![image](https://github.com/user-attachments/assets/aa429204-530b-4e77-ba9b-bea2c3b550c0)
-## Vadalur.html
-![image](https://github.com/user-attachments/assets/0e1cc334-0c42-4378-aaf3-fcb4a0ab9aac)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](<Screenshot 2025-11-05 114648.png>)
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
